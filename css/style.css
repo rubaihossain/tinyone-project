@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategrey;
+    font-family: cursive;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #FCDA3B;
+    min-height: 600px;
+}
+
+.headerTop {
+    height: 60px;
+}
+
+.headerLogo {
+    width: 50%;
+    float: left;
+    padding: 10px 0px 0px 120px;
+}
+
+.menu {
+    width: 50%;
+    float: left;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style-image: none;
+    padding-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: arial;
+    font-style: italic;
+    color: black;
+    padding: 15px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #571339;
+    color: white;
+    border-radius: 10px;
+}
+
+.headerBottomLeft {
+
+    float: left;
+    width: 50%;
+    padding: 50px 20px 0px 120px
+}
+
+.headerBottomLeft .fab {
+    font-size: 35px;
+    padding: 10px;
+}
+
+.headerBottomLeft .fab:hover {
+    color: #571339;
+}
+
+.headerBottomRight {
+    width: 50%;
+    float: left;
+    padding: 10px 0px 0px 60px;
+}
+
+.headerBottomRight img {
+    width: 70%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.mainSection {
+    background-color: white;
+    min-height: 680px;
+}
+
+.mainSectionTop {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0px 80px 0px;
+}
+
+.mainSectionMid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mainSectionMid1 {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.mainSectionMid2 {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.mainSectionMid3 {
+    width: 30%;
+    float: left;
+}
+
+.word p {
+    word-spacing: 20px;
+    color: #9A9A9B;
+}
+
+.mainSection h2 {
+    font-family: arial;
+}
+
+.mainSectionBottom {
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 0px 80px 0px;
+    clear: both;
+}
+
+.mainSectionBottom1 {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.mainSectionBottom2 {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.mainSectionBottom3 {
+    width: 30%;
+    float: left;
+}
+
+.footer {
+    min-height: 600px;
+    background-color: #000000;
+}
+
+.footerTop {
+    color: #D2BF2D;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+}
+
+.footerTop p {
+    color: white;
+    word-spacing: 12px;
+}
+
+.footerSearch {
+    width: 55%;
+    float: left;
+    padding-left: 370px;
+}
+
+.search input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+.footerSubmit {
+    width: 45%;
+    float: left;
+}
+
+.footerSubmit input {
+    width: 80px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #D2BF2D;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.footerSubmit input:hover {
+    color: white;
+    background-color: #571339;
+}
+
+.socialIcon {
+    margin-left: 450px;
+    padding: 50px 0px 100px 0px;
+    ;
+}
+
+.socialIcon .fab {
+    color: black;
+    background-color: #D2BF2D;
+    padding: 12px;
+    margin-right: 10px;
+}
+
+.socialIcon .fab:hover {
+    background-color: #571339;
+    color: white;
+}
+
+.footerBottom {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.footerBottom .text li {
+    list-style-image: none;
+}
+
+.footerBottom .text a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerBottom .text a:hover {
+    color: darkolivegreen;
+}
+
+.footerBottom1 {
+    width: 35%;
+    float: left;
+}
+
+.footerBottom2 {
+    width: 16%;
+    float: left;
+}
+
+.footerBottom3 {
+    width: 16%;
+    float: left;
+}
+
+.footerBottom4 {
+    width: 16%;
+    float: left;
+}
+
+.footerBottom5 {
+    width: 16%;
+    float: left;
+}
+
+.copyright {
+    clear: both;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.copyright p {
+    color: white;
+    display: inline-block;
+}
+
+.copyright img {
+    width: 50px;
+    border-radius: 50%;
+}
